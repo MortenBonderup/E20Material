@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 1px solid blue;
+}
+
+sup,a {
+    border: 1px solid red;
+}
