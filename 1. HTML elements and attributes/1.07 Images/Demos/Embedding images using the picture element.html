@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding images using the picture element</title>
+</head>
+
+<body>
+    <picture>
+        <source media="(min-width: 1280px)" srcset="images/koala-large.jpg">
+        <source media="(min-width: 853px)" srcset="images/koala-medium.jpg">
+        <img src="images/koala-small.jpg" alt="Picture of a koala">
+    </picture>
+</body>
+
+</html>
+
+<!--
+Koala image from pen_ash from Pixabay (https://pixabay.com/da/service/license/)
+
+The HTML <picture> element contains zero or more <source> elements and one <img> element to offer alternative versions of an image for different display/device scenarios.
+
+-->

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio examples</title>
+</head>
+
+<body>
+    <p>Audio with controls:</p>
+    <audio controls src="audio/Bouncy_Fun_1.mp3">
+        Your browser does not support the audio element,
+        but you can <a href="audio/Bouncy_Fun_1.mp3">download it here</a>.
+    </audio>
+
+    <hr>
+
+    <p>Audio with controls and loop:</p>
+    <audio controls loop src="audio/Funky_Groove.mp3">
+        Your browser does not support the audio element,
+        but you can <a href="audio/Funky_Groove.mp3">download it here</a>.
+    </audio>
+
+    <hr>
+
+    <p>Audio with controls, autoplay, muted and loop:</p>
+    <audio autoplay controls muted loop src="audio/Walker.mp3">
+        Your browser does not support the audio element,
+        but you can <a href="audio/Walker.mp3">download it here</a>.
+    </audio>
+
+</body>
+
+</html>
+
+<!--The HTML <audio> element is used to embed sound content in documents. You can use <video> for audio content as well, but the <audio> element may provide a more appropriate user experience.  It may contain one or more audio sources, represented using the src attribute or the <source> element: the browser will choose the most suitable one:
+
+<audio controls>
+ <source src="foo.opus" type="audio/ogg; codecs=opus"/>
+ <source src="foo.ogg" type="audio/ogg; codecs=vorbis"/>
+ <source src="foo.mp3" type="audio/mpeg"/>
+</audio>
+
+-->

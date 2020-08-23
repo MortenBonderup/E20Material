@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 form elements</title>
+</head>
+
+<body>
+    <form action="/action_page.php" method="post">
+        <label for="email">Email field</label>
+        <input type="email" id="email" name="email" autofocus required><br><br>
+
+        <label for="search">Search field</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <label for="tel">Phone #</label>
+        <input type="tel" id="tel" name="tel" pattern="[\+][0-9]{10}" title="Format example: +4572286339"><br><br>
+
+        <label for="url">URL</label>
+        <input type="url" id="url" name="url" required><br><br>
+
+        <label for="number">Number (18-99)</label>
+        <input type="number" name="number" id="number" min="18" max="99" step="1"><br><br>
+
+        <label for="rangeval">Choose value</label>
+        <input type="range" name="rangeval" id="rangeval" min="1" max="100" step="1" value="25"><br><br>
+
+        <label for="color">Pick a color</label>
+        <input type="color" name="color" id="color"><br><br>
+
+        <label for="myDate">Pick a date</label>
+        <input type="date" name="myDate" min="2020-08-01" max="2022-08-31" step="1" id="myDate"><br><br>
+
+        <label for="month">Pick a month</label>
+        <input type="month" name="month" id="month"><br><br>
+
+        <label for="time">Pick a time</label>
+        <input type="time" name="time" id="time"><br><br>
+
+        <label for="week">Pick a week</label>
+        <input type="week" name="week" id="week"><br><br>
+
+        <label for="pbar">Progress bar</label>
+        <progress id="pbar" max="100" value="75">75/100</progress><br><br>
+
+        <label for="mbar">Meter</label>
+        <meter id="mbar" min="0" max="100" value="25" low="33" high="66" optimum="75">25</meter>
+        <meter min="0" max="100" value="50" low="33" high="66" optimum="75">50</meter>
+        <meter min="0" max="100" value="80" low="33" high="66" optimum="75">80</meter><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body></html>

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video examples</title>
+</head>
+
+<body>
+
+    <p>This video autoplay, loop and are muted. It has no controls:</p>
+    <video width="1024" autoplay muted loop poster="video/welcome.png">
+        <source src="video/videoexample.mp4" type="video/mp4">
+        Sorry, you cannot see this video but you can <a href="video/videoexample.mp4">download it!</a>
+    </video>
+
+    <hr>
+    
+    <p>This video has controls and subtitles. For the latter to work, you must use Brackets built-in preview or a webserver (localhost or other):</p>
+    <video width="1024" controls poster="video/welcome.png">
+        <source src="video/videoexample.mp4" type="video/mp4">
+        <track src="video/subtitle_dk.vtt" kind="subtitles" srclang="dk" label="Dansk">
+        <track src="video/subtitle_en.vtt" kind="subtitles" srclang="en" label="English" default>
+        Sorry, you cannot see this video but you can <a href="video/videoexample.mp4">download it!</a>
+    </video>
+
+</body>
+
+</html>
+
+<!--The HTML Video element (<video>) embeds a media player which supports video playback into the document. You can use <video> for audio content as well, but the <audio> element may provide a more appropriate user experience.
+Browsers don't all support the same video formats; you can provide multiple sources inside nested <source> elements, and the browser will then use the first one it understands.
+
+<video controls>
+  <source src="myVideo.mp4" type="video/mp4">
+  <source src="myVideo.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is
+     a <a href="myVideo.mp4">link to the video</a> instead.</p>
+</video>
+
+-->

@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedding external-internal pages and media with iframe</title>
+</head>
+
+<body>
+
+    <h1>Embedding pages and media with &lt;iframe&gt;</h1>
+
+    <h2>External page: Wired technology online magazine</h2>
+
+    <iframe src="https://www.wired.com/" width="500" height="600">
+    </iframe>
+
+    <h2>Internal page: Text with paragraphs</h2>
+
+    <iframe src="TextWithParagraphs.html" width="800" height="300">
+    </iframe>
+
+    <h2>YouTube video</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KEMWTyO8iXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Google Map</h2>
+
+    <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=aarhus&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+
+</body>
+
+</html>
+
+<!--
+<iframe> elements are designed to allow you to embed other web documents into the current document.
+
+The following attributes are deprecated, but still in use. You will learn later how to replace them with CSS:
+
+frameborder
+    The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you should instead use the CSS property border to control <iframe> borders
+
+marginheight, marginwidth
+    The amount of space in pixels between the frame's content and its top and bottom borders
+
+scrolling
+    Indicates when the browser should provide a scrollbar for the frame:
+
+        auto: Only when the frame's content is larger than its dimensions.
+        yes: Always show a scrollbar.
+        no: Never show a scrollbar.
+
+-->

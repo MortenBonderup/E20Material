@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form text element with autocompletion</title>
+</head>
+
+<body>
+    <form action="/action_page.php" method="post">
+        <label for="mycar">What's your favorite car model?</label>
+        <input type="text" name="mycar" id="mycar" list="carlist">
+        <datalist id="carlist">
+            <option>Volvo</option>
+            <option>Mazda</option>
+            <option>Renault</option>
+            <option>Mercedes</option>
+            <option>BMW</option>
+            <option>VW</option>
+            <option>Kia</option>
+            <option>Audi</option>
+        </datalist>
+    </form>
+</body>
+</html>

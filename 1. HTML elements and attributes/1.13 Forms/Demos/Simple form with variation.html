@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form with variation</title>
+</head>
+
+<body>
+    <form action="/action_page.php" method="post">
+        <fieldset>
+            <legend>Register:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" pattern="[A-Za-z]{2,20}" title="Your first name, that must be at least 2 and maximum 20 characters" autofocus required><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" pattern="[A-Za-z]{2,20}" title="Your last name, that must be at least 2 and maximum 20 characters" required><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <!-- Variation: -->
+    
+    <form action="/action_page.php" method="post">
+        <fieldset>
+            <legend>Register:</legend>
+            <label>First name:<input type="text" name="fname" pattern="[A-Za-z]{2,20}" title="Your first name, that must be at least 2 and maximum 20 characters" required></label><br><br>
+            <label>Last name:<input type="text" name="lname" pattern="[A-Za-z]{2,20}" title="Your last name, that must be at least 2 and maximum 20 characters" required></label><br><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
+
+<!--
+A label can also be bound to an element by placing the element inside the <label> element.
+
+While <input> elements of type button are still perfectly valid HTML, the newer <button> element is now the favored way to create buttons. Given that a <button>’s label text is inserted between the opening and closing tags, you can include HTML in the label, even images.
+-->

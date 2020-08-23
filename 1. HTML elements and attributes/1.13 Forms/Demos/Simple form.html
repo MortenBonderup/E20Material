@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form</title>
+</head>
+
+<body>
+    <form action="/action_page.php" method="post">
+        <fieldset>
+            <legend>Register:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" pattern="[A-Za-z]{2,20}" title="Your first name, that must be at least 2 and maximum 20 characters" autofocus required><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" pattern="[A-Za-z]{2,20}" title="Your last name, that must be at least 2 and maximum 20 characters" required><br><br>    
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
+
+<!--
+The FOR attribute of <label> must be equal to the ID attribute of the related element to bind them together. .
+
+Associating a <label> with an <input> element offers some major advantages:
+1) The label text is not only visually associated with its corresponding text input; it is programmatically associated with it too. This means that, for example, a screenreader will read out the label when the user is focused on the form input, making it easier for an assistive technology user to understand what data should be entered.
+
+2) You can click the associated label to focus/activate the input, as well as the input itself. This increased hit area provides an advantage to anyone trying to activate the input, including those using a touch-screen device
+
+The AUTOFOCUS attribute lets you specify that the element should automatically have input focus when the page loads. Only one form-associated element in a document can have this attribute specified.
+
+The REQUIRED attribute lets you specify that user input are required before the form can be submitted.
+
+
+-->

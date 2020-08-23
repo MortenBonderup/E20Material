@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic native form elements</title>
+</head>
+
+<body>
+    <form action="/action_page.php" method="post">
+        <label for="comment">Text field</label>
+        <input type="text" id="comment" name="comment" placeholder="Please type something" autofocus><br><br>
+        
+        <label for="pwd">Password field</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        
+        <label for="carrots">Checkbox</label>
+        <input type="checkbox" id="carrots" name="carrots" value="carrots"><br><br>
+        
+        <label for="soup">Radio</label>
+        <input type="radio" id="soup" name="meal"><br><br>
+        
+        <label for="file">File picker</label>
+        <input type="file" name="file" id="file" accept="image/*"><br><br>
+        
+        <textarea cols="40" rows="10" name="freetext" id="freetext" placeholder="This is a textarea element. Type something here..."></textarea><br><br>
+                        
+        <input type="submit" value="This is a submit button"><br><br>
+        <input type="reset" value="This is a reset button"><br><br>
+        <input type="button" value="This is a button to be programmed"><br><br>
+        <input type="image" alt="Click me!" src="images/button_send.png"><br><br>
+
+        <!--Buttons made with <button> element-->
+        <h2>Buttons made with the button element:</h2>
+        <button type="submit">This is a <strong>submit button</strong></button><br><br>
+        <button type="reset">This is a <strong>reset button</strong></button><br><br>
+        <button type="button">This is an <strong>anonymous button</strong></button><br><br>
+        <button type="submit"><img alt="Click me!" src="images/button_send.png"></button><br><br>
+        <!-- ******************************** -->
+        
+    </form>
+</body></html>
+
+<!--
+On some mobile devices, the file picker can access photos, videos, and audio captured directly by the device's camera and microphone by adding capture information to the accept attribute like so:
+
+<input type="file" accept="image/*;capture=camera">
+<input type="file" accept="video/*;capture=camcorder">
+<input type="file" accept="audio/*;capture=microphone">
+
+-->

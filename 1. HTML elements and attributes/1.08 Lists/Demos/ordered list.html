@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered list</title>
+</head>
+
+<body>
+    <h1>Blood Orange Cabbage Salad</h1>
+    <ol>
+        <li>2 carrots</li>
+        <li>1 purple cabbage</li>
+        <li>5 radishes</li>
+        <li>2 blood oranges</li>
+        <li>golden raisins</li>
+        <li>olive oil</li>
+        <li>balsamic vinegar</li>
+        <li>juice of 1 blood orange</li>
+    </ol>
+
+    <ol type="A">
+        <li>2 carrots</li>
+        <li>1 purple cabbage</li>
+        <li>5 radishes</li>
+        <li>2 blood oranges</li>
+        <li>golden raisins</li>
+        <li>olive oil</li>
+        <li>balsamic vinegar</li>
+        <li>juice of 1 blood orange</li>
+    </ol>
+
+    <ol type="a" start="5">
+        <li>2 carrots</li>
+        <li>1 purple cabbage</li>
+        <li>5 radishes</li>
+        <li>2 blood oranges</li>
+        <li>golden raisins</li>
+        <li>olive oil</li>
+        <li>balsamic vinegar</li>
+        <li>juice of 1 blood orange</li>
+    </ol>
+
+    <ol type="i">
+        <li>2 carrots</li>
+        <li>1 purple cabbage</li>
+        <li>5 radishes
+            <ol type="a">
+                <li>2 blood oranges</li>
+                <li>golden raisins</li>
+            </ol>
+        </li>
+        <li>olive oil</li>
+        <li>balsamic vinegar</li>
+        <li>juice of 1 blood orange</li>
+    </ol>
+
+
+</body></html>
+
+<!--The HTML <ol> element represents an ordered list of items — typically rendered as a numbered list.-->
+
+<!--attribute: type
+    Sets the numbering type:
+
+        a for lowercase letters
+        A for uppercase letters
+        i for lowercase Roman numerals
+        I for uppercase Roman numerals
+        1 for numbers (default)
+-->
+
+<!--attribute: start
+    An integer to start counting from for the list items. Always an Arabic numeral (1, 2, 3, etc.), even when the numbering type is letters or Roman numerals. For example, to start numbering elements from the letter "d" or the Roman numeral "iv," use start="4".-->
