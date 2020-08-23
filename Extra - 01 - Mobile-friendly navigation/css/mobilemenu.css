@@ -1,0 +1,79 @@
+/* [ON MOBILE DEVICES] */
+
+.navigation__container {
+    background: #000000;
+    position: sticky;
+    top: 0;
+}
+
+.mobileiconlabel {
+    display: inline-block;
+    color: #ffffff;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.menuitem {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Hide checkbox and menuitems until clicked */
+.menuitems__container,
+.mobileicon {
+    display: none;
+}
+
+/* Show menuitems when mobileicon-label is clicked */
+.navigation__container input:checked ~ .menuitems__container {
+    display: block;
+}
+
+/* Display company logo to the right */
+.companylogo {
+    position: absolute;
+    color: white;
+    top: 12px;
+    right: 10px;
+    width: 140px;
+}
+
+
+/* Add rules [ON WIDE SCREENS] */
+
+@media screen and (min-width: 800px) {
+
+    /* Hide Mobile icon and its label */
+    .mobileiconlabel,
+    .mobileicon {
+        display: none;
+    }
+
+    
+    /* Make menuitems flex horisontally (on a row) */
+    .menuitems__container {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+    .menuitem {
+        width: 130px;
+    }
+
+
+    .menuitem:hover {
+        background: #b25840;
+    }
+    
+    /* Display company logo to the left */
+    .companylogo {
+        left: 10px;
+    }
+
+}

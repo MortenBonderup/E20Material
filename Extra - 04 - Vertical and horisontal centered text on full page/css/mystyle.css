@@ -1,0 +1,16 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.text__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

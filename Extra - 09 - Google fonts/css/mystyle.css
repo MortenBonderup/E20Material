@@ -1,0 +1,20 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bangers {
+    font-family: 'Bangers', cursive;
+    font-size: 2em;
+}
+
+.ralewaydots {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 2em;
+}
+

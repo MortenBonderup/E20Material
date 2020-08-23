@@ -1,0 +1,56 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    align-content: center;
+    max-height: 200vh;
+}
+
+.card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.card .text {
+    padding: 0 20px 20px;
+}
+
+.card h3 {
+    margin-bottom: 5px;
+}
+
+.card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 650px) {
+    .cards {
+        flex-direction: row;
+        align-items: flex-end; /* or stretch */
+        justify-content: center;
+        max-height: auto;
+    }
+
+}

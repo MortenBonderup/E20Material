@@ -1,0 +1,46 @@
+.slideshow__container {
+    margin: 0 auto;
+	overflow: hidden;
+    max-width: 50%;
+}
+
+.imagelist__container {
+	position: relative;
+	width: 500%;
+	animation: 20s slider infinite;
+}
+
+.image {
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}

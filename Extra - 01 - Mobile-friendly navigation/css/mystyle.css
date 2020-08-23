@@ -1,0 +1,15 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.page__body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1680px;
+    margin: 0 auto;
+}

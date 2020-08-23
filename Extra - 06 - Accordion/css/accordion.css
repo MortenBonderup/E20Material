@@ -1,0 +1,41 @@
+
+/* Centers the accordion */
+.accordion__container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.accordion__header {
+    display: block;
+    padding: 15px 20px;
+    background: #bbbbbb;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 5px;
+}
+
+.accordion {
+    list-style: none;
+}
+
+.accordion__paragraph {
+    padding: 10px;
+}
+
+.accordion__content {
+    padding: 0 10px;
+    height: 0;
+    overflow: hidden;
+    transition: height 400ms ease;
+}
+
+/* The target pseudo code reads the url */
+/* and apply this rule to the target bookmark (id) */
+.accordion__content:target {
+    height: 150px;
+    padding: 0 10px;
+    overflow-y: scroll;
+}

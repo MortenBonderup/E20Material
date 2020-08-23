@@ -1,0 +1,43 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* If the screen has a width larger than 1680px */
+/* The image will stay centered and margin will */
+/* show to the left and right */
+.page__body {
+    max-width: 1680px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image__container {
+  position: relative;
+  text-align: center;
+}
+
+
+/* COVER: The replaced content is sized to maintain its aspect ratio */
+/* while filling the element's entire content box. The object */
+/* will be clipped to fit */
+.image {
+    object-fit: cover;
+    width: 100%; /* Fill out the parent width */
+    height: 40vw; /* If image highter than 40vw then clip to fit */
+}
+
+.texton__image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 6vw;
+}
+
