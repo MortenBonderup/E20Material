@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing outer display example</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+    <h1>Changing outer display example</h1>
+
+    <h2>Example #1 - Changing an inline element to a block element</h2>
+
+    <img src="images/tyre.jpg" alt="Image of a tyre" class="image__element image__style">
+    <pre>
+    HTML:
+    &lt;img src=&quot;images/tyre.jpg&quot; alt=&quot;Image of a tyre&quot; class=&quot;image__element&quot;&gt;
+    
+    CSS: 
+    .image__element {
+        <strong>display: block;
+        margin: 0 auto;</strong>  &lt;-- This is how to center block elements
+    }
+    
+    </pre>
+
+    <h2>Example #2 - Changing a block element to an inline element</h2>
+
+    <h3>Normal list:</h3> 
+    <ol>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+    
+    <h3>List with inline list elements:</h3> 
+    <ol>
+        <li class="listitem">First</li>
+        <li class="listitem">Second</li>
+        <li class="listitem">Third</li>
+    </ol>
+    
+    <pre>
+    HTML:
+    &lt;ol&gt;
+        &lt;li class=&quot;listitem&quot;&gt;First&lt;/li&gt;
+        &lt;li class="listitem&quot;&gt;Second&lt;/li&gt;
+        &lt;li class="listitem&quot;&gt;Third&lt;/li&gt;
+    &lt;/ol>
+    
+    CSS: 
+    .listitem {
+        <strong>display: inline;</strong>
+    }
+    
+    </pre>
+
+
+</body></html>

@@ -1,0 +1,20 @@
+h2 {
+    margin-top: 20px;
+}
+
+.borderbox {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 125px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}

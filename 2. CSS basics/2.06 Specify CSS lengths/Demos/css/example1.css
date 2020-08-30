@@ -1,0 +1,20 @@
+html {
+    font-size: 100%;
+}
+
+.p__style {
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    border: 1px black solid;
+}
+
+.p__rem {
+    width: 9rem;
+    height: 7.2rem;
+}
+
+.p__px {
+    width: 144px;
+    height: 115px;
+}

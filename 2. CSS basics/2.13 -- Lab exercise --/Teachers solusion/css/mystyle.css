@@ -1,0 +1,91 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+.page__body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.landscape__image {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.page__heading {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.quotation {
+    font-family: Verdana, Geneva, sans-serif;
+    display: block;
+    font-size: 1.5rem;
+    padding: 60px;
+    text-align: center;
+    background-color: chocolate;
+    color: white;
+    height: 192px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.card {
+    border: 1px solid black;
+    width: 240px;
+    height: 220px;
+}
+
+.boxcontent {
+    padding: 2px 16px;
+}
+
+.colorbox__brown {
+    height: 44px;
+    background-color: lightgreen;
+}
+
+.colorbox__blue {
+    height: 44px;
+    background-color: skyblue;
+}
+
+.colorbox__yellow {
+    height: 44px;
+    background-color: yellow;
+}
+
+.card__heading {
+    margin: 10px 0;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.story__heading {
+    margin: 30px 0 10px;
+}
+
+.columns__layout {
+     column-width: 250px;
+ }
+
+.p__end {
+    margin: 20px 0;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+h2 {
+    margin-top: 20px;
+}
+
+.contentbox {
+    box-sizing: content-box;
+    /* This the the default value */
+    border: 1px solid black;
+    width: 125px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.borderbox {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 125px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+}

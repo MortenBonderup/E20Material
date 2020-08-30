@@ -1,0 +1,11 @@
+.p__first {
+    font-family: Verdana, Geneva, sans-serif;
+    color: green;
+    background: yellow;
+}
+
+.p__second {
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    background: black;
+}

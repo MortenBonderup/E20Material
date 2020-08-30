@@ -1,0 +1,23 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+em {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+img {
+    border: 1px solid black;
+    margin: 20px;
+}

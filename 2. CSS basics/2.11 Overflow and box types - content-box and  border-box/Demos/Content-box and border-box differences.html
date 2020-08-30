@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content-box and border-box differences</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+    <h1>Content-box and border-box differences</h1>
+    <h2>Content-box (default)</h2>
+    <p class="contentbox">This is a contentbox</p>
+    <pre>
+    .contentbox {
+        box-sizing: content-box; /* This the the default value */
+        border: 1px solid black;
+        width: 125px;
+        height: 100px;
+        padding: 20px;
+        margin: 10px;
+    }
+     --------------
+     Content area width: 125px;
+     Content area height: 100px;
+     
+     Total element width: 10 + 1 + 20 + 125 + 20 + 1 + 10 = 187px
+     Total element height: 10 + 1 + 20 + 100 + 20 + 1 + 10 = 162px; 
+    </pre>
+    <hr>
+    <h2>Border-box (preferred)</h2>
+    <p class="borderbox">This is a borderbox</p>
+    <pre>
+    .borderbox {}
+        box-sizing: border-box;
+        border: 1px solid black;
+        width: 125px;
+        height: 100px;
+        padding: 20px;
+        margin: 10px;
+    }
+     --------------
+     Content area width: 125px - (2 * 20) - (2 * 1) = 83px
+     Content area height: 100px - (2 * 20) - (2 * 1) = 58px
+     
+     Total element width: 10px + 125px + 10px = 145px 
+     Total element height: 10px + 100px + 10px = 120px; 
+    </pre>
+
+</body></html>

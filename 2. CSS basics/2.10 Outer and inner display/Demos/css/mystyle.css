@@ -1,0 +1,35 @@
+.p__element,
+.h__element {
+    text-align: center;
+}
+
+.p__style {
+    border: 1px dotted brown;
+}
+
+.heading__element {
+    margin: 0 auto;
+}
+
+.heading__style {
+    width: 275px;
+    border: 1px dotted brown;
+}
+
+.p__image {
+    text-align: center;
+}
+
+.image__element {
+    display: block;
+    margin: 0 auto;
+}
+
+.image__style {
+    width: 250px;
+    border: 1px dotted brown;
+}
+
+.listitem {
+    display: inline;
+} 

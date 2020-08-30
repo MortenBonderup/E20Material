@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin collapse example</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+    <h1>Margin collapse example</h1>
+    <p>The top and bottom margins of block elements are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as <strong>margin collapsing</strong>.
+    <br><br><p>Logically the margin between the boxes should be 20px but it is only 10px.</p>
+
+    <h2>Box 1</h2>
+    <pre>
+     box-sizing: border-box; 
+     border: 1px solid black;
+     width: 125px;
+     height: 100px;
+     padding: 20px;
+     margin: 10px; 
+    </pre>
+    <p class="borderbox1">This is a contentbox</p>
+
+
+    <p class="borderbox2">This is a contentbox</p>
+
+    <h2>Box 2</h2>
+    <pre>
+     box-sizing: border-box; 
+     border: 1px solid black;
+     width: 125px;
+     height: 100px;
+     padding: 20px;
+     margin: 10px; 
+    </pre>
+</body></html>

@@ -1,0 +1,7 @@
+.block__element {
+    border: 1px solid blue;
+}
+
+.inline__element {
+    border: 1px solid red;
+}

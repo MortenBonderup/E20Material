@@ -1,0 +1,18 @@
+ .card {
+     border: 1px solid black;
+     width: 240px;
+     height: 220px;
+ }
+
+ .boxcontent {
+     padding: 2px 16px;
+ }
+
+ .colorbox {
+     height: 44px;
+     background-color: brown;
+ }
+
+ .keywords {
+     color: darkgoldenrod;
+ }

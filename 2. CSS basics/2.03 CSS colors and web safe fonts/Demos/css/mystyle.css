@@ -1,0 +1,19 @@
+.fontsamples {
+    font-size: 1.5rem;
+}
+
+.monospace {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.sansserif {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.explanation {
+    font-size: 1rem;
+}

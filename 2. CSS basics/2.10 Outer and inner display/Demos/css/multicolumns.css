@@ -1,0 +1,7 @@
+ .columns__1 {
+     column-count: 3;
+ }
+
+ .columns__2 {
+     column-width: 250px;
+ }
