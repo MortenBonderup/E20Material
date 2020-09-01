@@ -13,6 +13,7 @@ html {
 }
 
 .page__body {
+    font-family: "Times New Roman", Times, serif;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -82,8 +83,8 @@ html {
 }
 
 .columns__layout {
-     column-width: 250px;
- }
+    column-width: 250px;
+}
 
 .p__end {
     margin: 20px 0;
